@@ -1,5 +1,7 @@
 import React from "react";
 //images
+import banner2 from "../assets/img/banner2.png";
+
 import logo from "../assets/img/LogoBlack.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 

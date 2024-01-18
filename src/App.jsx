@@ -5,10 +5,12 @@ import image1 from "./assets/img/bg11.png";
 import image2 from "./assets/img/bg22.png";
 import { ContentOne } from "./components/ContentOne";
 import { ContentTwo } from "./components/ContentTwo";
+import { MobileDisplay } from "./components/MobileDisplay";
 import { ContentThree } from "./components/ContentThree";
 import Footer from "./components/Footer";
 import { Contact } from "./components/Contact";
 import { Element } from "react-scroll";
+import { ContentFour } from "./components/ContentFour";
 
 function App() {
   const estiloConFondo = {
@@ -27,28 +29,24 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <Element name="contentOne">
+     <Navbar /> 
+{/*       <MobileDisplay /> */}
         <div style={estiloConFondo}>
           <ContentOne />
         </div>
-      </Element>
-      <Element name="contentTwo">
         <div style={estiloConFondo1}>
           <ContentTwo />
         </div>
-      </Element>
-      <Element name="contentThree">
         <div style={estiloConFondo2}>
           <ContentThree />
         </div>
-      </Element>
-      <Element name="contact">
+{/*         <div style={estiloConFondo2}>
+          <ContentFour />
+        </div> */}
         <div style={estiloConFondo2}>
           <Contact />
         </div>
-      </Element>
-      <Footer />
+       <Footer /> 
     </div>
   );
 }

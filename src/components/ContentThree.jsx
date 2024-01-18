@@ -26,7 +26,7 @@ export const ContentThree = () => {
   return (
     <div className="pb-[100px]">
       <div className="pt-[320px]">
-        <h1 style={{ fontSize: "100px" }} className=" text-white font-bold">
+        <h1 style={{ fontSize: "100px" }} className=" text-white text-center font-bold">
           Choose your PidCard{" "}
         </h1>
         </div>

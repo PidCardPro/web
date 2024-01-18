@@ -1,0 +1,6 @@
+.content {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(9, 128, 9, 0.9), rgba(9, 128, 9, 0.9)), url("../assets/img/dsds.jpg");
+    background-size: cover;
+}

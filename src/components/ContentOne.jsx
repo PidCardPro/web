@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import banner1 from "../assets/img/banner1.png";
+import { Link } from "react-router-dom";
 
 export const ContentOne = () => {
   const [showCards, setShowCards] = useState(false);
@@ -35,13 +36,14 @@ export const ContentOne = () => {
             present yourself{" "}
           </h1>
           <div className="flex justify-end">
-
+          <Link to="/pricing">
           <button
             type="button"
             class=" mr-24 w-[150px] text-white bg-[#1A5D1A] hover:bg-[#1b341b] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-[#1A5D1A] dark:hover:bg-[#1b341b] dark:focus:ring-[#1b341b]"
             >
             Get Your PidCard
           </button>
+              </Link>
             </div>
         </div>
         <div className="flex">

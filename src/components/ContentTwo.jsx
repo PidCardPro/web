@@ -1,6 +1,8 @@
 import React from "react";
 import banner1 from "../assets/img/banner1.png";
 import banner2 from "../assets/img/banner2.png";
+import phoneScreen from "../assets/img/phone_screen_mockup2.png"
+
 export const ContentTwo = () => {
   return (
     <div className="flex justify-center items-center flex-wrap">
@@ -14,6 +16,7 @@ export const ContentTwo = () => {
         <h1 style={{fontSize:"100px"}} className="text-justify text-white font-bold -mt-12" > Share </h1>
 
       </div>
+      <img className='w-[1500px]' src={phoneScreen}/>
     </div>
   );
 };

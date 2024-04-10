@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <div>
+    <div className='flex justify-center'>
         <section class="bg-[#098009]">
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">Contact Us</h2>
@@ -24,6 +24,7 @@ export const Contact = () => {
       </form>
   </div>
 </section>
+
     </div>
   )
 }

@@ -24,19 +24,21 @@ export const ContentThree = () => {
   };
 
   return (
-    <div className="pb-[100px]">
-      <div className="pt-[320px]">
-        <h1 style={{ fontSize: "100px" }} className=" text-white text-center font-bold">
+    <div className="pb-[100px]  ">
+      <div className="pt-20">
+        <h1 className=" text-white text-center text-6xl font-bold">
           Choose your PidCard{" "}
         </h1>
+      </div>
+      <div className="flex justify-center">
+        <div className="flex justify-center pt-36 items-center flex-wrap pl-42 pr-42 w-[1500px]">
+          <img className="max-h-[300px] w-[500px] " src={card1} />
+          <img className="max-h-[300px] w-[500px]" src={card2} />
+          <img className="max-h-[300px] w-[500px]" src={card3} />
+          <img className="max-h-[300px] w-[500px]" src={card4} />
+          <img className="max-h-[300px] w-[500px]" src={card5} />
+          <img className="max-h-[300px] w-[500px]" src={card6} />
         </div>
-      <div className="flex justify-center pt-36 items-center flex-wrap pl-42 pr-42">
-        <img className="max-h-[300px] w-[500px] " src={card1} />
-        <img className="max-h-[300px] w-[500px]" src={card2} />
-        <img className="h-[310px] w-[500px]" src={card3} />
-        <img className="max-h-[300px] w-[500px]" src={card4} />
-        <img className="max-h-[300px] w-[500px]" src={card5} />
-        <img className="h-[310px] w-[500px]" src={card6} />
       </div>
     </div>
   );

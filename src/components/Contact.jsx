@@ -3,7 +3,7 @@ import React from 'react'
 export const Contact = () => {
   return (
     <div className='flex justify-center'>
-        <section class="bg-[#098009]">
+        <section>
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">Contact Us</h2>
       <p class="mb-8 lg:mb-16 font-light text-center text-white sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
@@ -20,7 +20,7 @@ export const Contact = () => {
               <label for="message" class="block mb-2 text-sm font-medium text-white">Your message</label>
               <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " placeholder="Leave a comment..."></textarea>
           </div>
-          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+          <button type="submit" class="py-3 px-5 text-sm bg-[#4ab45b] font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
       </form>
   </div>
 </section>

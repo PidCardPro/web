@@ -11,7 +11,11 @@ import Footer from "./components/Footer";
 import { Contact } from "./components/Contact";
 import { Element } from "react-scroll";
 import { ContentFour } from "./components/ContentFour";
+import { Router } from "./router/Router";
 
+const AppContainer = () => {
+  return <Router />;
+};
 function App() {
   const estiloConFondo = {
     backgroundImage: `url(${image1})`,
@@ -28,26 +32,7 @@ function App() {
   };
 
   return (
-    <div className="App">
-     <Navbar /> 
-{/*       <MobileDisplay /> */}
-        <div style={estiloConFondo}>
-          <ContentOne />
-        </div>
-        <div style={estiloConFondo1}>
-          <ContentTwo />
-        </div>
-        <div style={estiloConFondo2}>
-          <ContentThree />
-        </div>
-{/*         <div style={estiloConFondo2}>
-          <ContentFour />
-        </div> */}
-        <div style={estiloConFondo2}>
-          <Contact />
-        </div>
-       <Footer /> 
-    </div>
+<AppContainer />
   );
 }
 
